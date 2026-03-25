@@ -1,0 +1,12 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^python - <<'PY'\nimport json\nfrom pathlib import Path\np=Path\\('my_test_data/data/ego_logs\\.json'\\)\nobj=json\\.loads\\(p\\.read_text\\(\\)\\)\nprint\\(type\\(obj\\)\\.__name__\\)\nif isinstance\\(obj,list\\):\n    print\\('len',len\\(obj\\)\\)\n    if obj:\n        print\\('first_keys',list\\(obj\\[0\\]\\.keys\\(\\)\\)\\[:30\\]\\)\n        print\\('first_sample', \\{k:obj\\[0\\]\\[k\\] for k in list\\(obj\\[0\\]\\.keys\\(\\)\\)\\[:6\\]\\}\\)\nelif isinstance\\(obj,dict\\):\n    print\\('keys',list\\(obj\\.keys\\(\\)\\)\\[:50\\]\\)\n    for k in list\\(obj\\.keys\\(\\)\\)\\[:5\\]:\n        v=obj\\[k\\]\n        print\\('key',k,'type',type\\(v\\)\\.__name__\\)\nPY$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python - <<'PY'\nimport pickle\nfrom pathlib import Path\np=Path\\('my_test_data/data/rsv/0\\.pkl'\\)\nobj=pickle\\.load\\(open\\(p,'rb'\\)\\)\nprint\\(type\\(obj\\)\\.__name__\\)\nif isinstance\\(obj,dict\\):\n    print\\('keys',list\\(obj\\.keys\\(\\)\\)\\[:80\\]\\)\n    for k in list\\(obj\\.keys\\(\\)\\)\\[:10\\]:\n        v=obj\\[k\\]\n        print\\(k, type\\(v\\)\\.__name__\\)\nelif isinstance\\(obj,list\\):\n    print\\('len',len\\(obj\\)\\)\n    if obj:\n        print\\('first_type',type\\(obj\\[0\\]\\)\\.__name__\\)\n        if isinstance\\(obj\\[0\\],dict\\):\n            print\\('first_keys',list\\(obj\\[0\\]\\.keys\\(\\)\\)\\[:40\\]\\)\nPY$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

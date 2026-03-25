@@ -1,0 +1,9 @@
+name: scene-flow-spec-lean
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pip
+  - pip:
+      - networkx
+      - shapely

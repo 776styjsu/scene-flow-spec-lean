@@ -1,0 +1,31 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["4b61498ff1ac6684.olean"],
+  "i": "a6f06af04e3756a2.ilean",
+  "c": "16beca516566724a.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/home/yutia000/Work/Courses/cs-6501-001/scene-flow-spec-lean/.lake/build/lib/lean /home/yutia000/.elan/toolchains/leanprover--lean4---v4.28.0/bin/lean /home/yutia000/Work/Courses/cs-6501-001/scene-flow-spec-lean/SceneFlowSpec/Theorems.lean -o /home/yutia000/Work/Courses/cs-6501-001/scene-flow-spec-lean/.lake/build/lib/lean/SceneFlowSpec/Theorems.olean -i /home/yutia000/Work/Courses/cs-6501-001/scene-flow-spec-lean/.lake/build/lib/lean/SceneFlowSpec/Theorems.ilean -c /home/yutia000/Work/Courses/cs-6501-001/scene-flow-spec-lean/.lake/build/ir/SceneFlowSpec/Theorems.c --setup /home/yutia000/Work/Courses/cs-6501-001/scene-flow-spec-lean/.lake/build/ir/SceneFlowSpec/Theorems.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["SceneFlowSpec.Theorems:deps",
+   [["deps",
+     [["«scene-flow-spec-lean»/SceneFlowSpec:extraDep",
+       [["@«scene-flow-spec-lean»:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["SceneFlowSpec.Semantics transitive imports (legacy)",
+         "9b850de2dce002d9"],
+        ["SceneFlowSpec.Semantics:importAllArts", "d4ee92f002ad55e4"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.28.0, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b",
+   "a96bc04a2e5e9630"],
+  ["/home/yutia000/Work/Courses/cs-6501-001/scene-flow-spec-lean/SceneFlowSpec/Theorems.lean",
+   "5b848136eee143b1"],
+  ["options", [["-DautoImplicit=false", "4a85acb881fd49d0"]]],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "eb23caacee88d8b6"}

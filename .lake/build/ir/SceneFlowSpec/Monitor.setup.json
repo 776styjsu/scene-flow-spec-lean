@@ -1,0 +1,13 @@
+{"plugins": [],
+ "package": "scene-flow-spec-lean",
+ "options": {"autoImplicit": false},
+ "name": "SceneFlowSpec.Monitor",
+ "isModule": false,
+ "importArts":
+ {"SceneFlowSpec.Semantics":
+  ["/home/yutia000/Work/Courses/cs-6501-001/scene-flow-spec-lean/.lake/build/lib/lean/SceneFlowSpec/Semantics.olean"],
+  "SceneFlowSpec.Scene":
+  ["/home/yutia000/Work/Courses/cs-6501-001/scene-flow-spec-lean/.lake/build/lib/lean/SceneFlowSpec/Scene.olean"],
+  "SceneFlowSpec.Formula":
+  ["/home/yutia000/Work/Courses/cs-6501-001/scene-flow-spec-lean/.lake/build/lib/lean/SceneFlowSpec/Formula.olean"]},
+ "dynlibs": []}

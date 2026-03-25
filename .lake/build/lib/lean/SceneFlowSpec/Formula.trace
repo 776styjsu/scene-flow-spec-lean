@@ -1,0 +1,30 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["20612a5d06f8cc15.olean"],
+  "i": "d27736e4f0c973c4.ilean",
+  "c": "d35f576ab770d9e9.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/home/yutia000/Work/Courses/cs-6501-001/scene-flow-spec-lean/.lake/build/lib/lean /home/yutia000/.elan/toolchains/leanprover--lean4---v4.28.0/bin/lean /home/yutia000/Work/Courses/cs-6501-001/scene-flow-spec-lean/SceneFlowSpec/Formula.lean -o /home/yutia000/Work/Courses/cs-6501-001/scene-flow-spec-lean/.lake/build/lib/lean/SceneFlowSpec/Formula.olean -i /home/yutia000/Work/Courses/cs-6501-001/scene-flow-spec-lean/.lake/build/lib/lean/SceneFlowSpec/Formula.ilean -c /home/yutia000/Work/Courses/cs-6501-001/scene-flow-spec-lean/.lake/build/ir/SceneFlowSpec/Formula.c --setup /home/yutia000/Work/Courses/cs-6501-001/scene-flow-spec-lean/.lake/build/ir/SceneFlowSpec/Formula.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["SceneFlowSpec.Formula:deps",
+   [["deps",
+     [["«scene-flow-spec-lean»/SceneFlowSpec:extraDep",
+       [["@«scene-flow-spec-lean»:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["SceneFlowSpec.Scene transitive imports (legacy)", "00000000000006bb"],
+        ["SceneFlowSpec.Scene:importAllArts", "fb24e4d97010db72"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.28.0, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b",
+   "a96bc04a2e5e9630"],
+  ["/home/yutia000/Work/Courses/cs-6501-001/scene-flow-spec-lean/SceneFlowSpec/Formula.lean",
+   "70f2a1566ab5ad06"],
+  ["options", [["-DautoImplicit=false", "4a85acb881fd49d0"]]],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "aa4a8f15e17c789d"}

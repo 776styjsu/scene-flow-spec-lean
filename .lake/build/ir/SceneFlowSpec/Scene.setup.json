@@ -1,0 +1,7 @@
+{"plugins": [],
+ "package": "scene-flow-spec-lean",
+ "options": {"autoImplicit": false},
+ "name": "SceneFlowSpec.Scene",
+ "isModule": false,
+ "importArts": {},
+ "dynlibs": []}
