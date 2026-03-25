@@ -1,0 +1,24 @@
+# Lean / Lake build artifacts
+.lake/
+.lean/
+build/
+*.olean
+*.ilean
+*.trace
+*.hash
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+
+# Editor / OS noise
+.vscode/
+.DS_Store
+
+# Project-generated local outputs
+sceneflow_sample/data/temp_viz/
